@@ -517,7 +517,7 @@ border-radius: 5px; */
                position: relative;
                transition: all 0.3s;
            }
-           .product ul{
+           .product-details ul{
             list-style: disc;
             font-size: 1.8rem;
            }
