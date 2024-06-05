@@ -517,6 +517,9 @@ border-radius: 5px; */
                position: relative;
                transition: all 0.3s;
            }
+           .product > ul{
+            list-style: disc;
+           }
            
            .landing_product_section .product-card .product-img {
                margin-bottom: 7rem;
