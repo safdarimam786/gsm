@@ -273,18 +273,18 @@
                width: 100%;
                top: 2rem;
                left: 0;
-               transition: 0.3s;
                z-index: 100000;
-           }
-           
-           .header .navbar {
-            backdrop-filter: blur(20px);
-               background-color:#0b6a18bb ;
-               background-repeat: no-repeat;
-               background-position: center;
-               background-size: contain;
-               padding: 2rem 5rem;
-               border-radius:8px;
+               }
+               
+               .header .navbar {
+                   backdrop-filter: blur(20px);
+                   background-color:#0b6a18bb ;
+                   background-repeat: no-repeat;
+                   background-position: center;
+                   background-size: contain;
+                   padding: 2rem 5rem;
+                   border-radius:8px;
+                   transition: 0.5s;
            }
            
            .navbar-brand {
