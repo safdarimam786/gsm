@@ -273,7 +273,7 @@
                width: 100%;
                top: 2rem;
                left: 0;
-              
+               transition: 0.3s;
                z-index: 100000;
            }
            
