@@ -829,6 +829,9 @@ border-radius: 5px; */
                .header .navbar {
                    background-size: cover;
                    padding: 1rem 2rem;
+                   margin: auto;
+                   margin-top: 2rem;
+                  
                }
            
                .header .navbar-nav {
@@ -851,6 +854,8 @@ border-radius: 5px; */
                .Gallery .banner_section,
                .contact .banner_section {
                    padding-top: 12.5rem;
+                   padding-left: 3.5rem;
+                   padding-right: 3.5rem;
                    padding-bottom: 3rem;
                }
            }
