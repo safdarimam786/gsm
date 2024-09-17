@@ -818,10 +818,10 @@ border-radius: 5px; */
            
                /* 02 Banner Section */
                .banner_section .carousel-item {
-                   height: 80vh;
+                   height: 100vh;
                }
            }
-        s
+        
            /* Media Query 991px */
            @media (max-width:991px) {
            
@@ -874,6 +874,7 @@ border-radius: 5px; */
                /* 02 Banner Section */
                .banner_section {
                    min-height: 70vh;
+                   font-size: medium;
                }
            
                .banner_section .carousel-item {
