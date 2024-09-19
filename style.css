@@ -872,13 +872,14 @@ border-radius: 5px; */
                }
                
                h1,h3{
-                font-size: 36px;
+                font-size: 48px;
+                
                }
            
                /* 02 Banner Section */
                .banner_section {
-                   min-height: 70vh;
                    font-size: medium;
+                   min-height: 70vh;
                }
            
                .banner_section .carousel-item {
