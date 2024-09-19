@@ -870,8 +870,9 @@ border-radius: 5px; */
                .section-subtitle {
                    max-width: 80%;
                }
+               
                h1,h3{
-                font-size: smalls;
+                font-size: 36px;
                }
            
                /* 02 Banner Section */
