@@ -882,11 +882,11 @@ border-radius: 5px; */
                /* 02 Banner Section */
                .banner_section {
                    font-size: medium;
-                   min-height: 70vh;
+                   min-height: 80vh;
                }
            
                .banner_section .carousel-item {
-                   height: 70vh;
+                   height: 80vh;
                }
            }
            
