@@ -898,6 +898,10 @@ border-radius: 5px; */
                html {
                    font-size: 11px;
                }
+               .banner_section {
+                font-size: medium;
+                min-height: 80vh;
+            }
            }
            
                  
