@@ -875,7 +875,7 @@ border-radius: 5px; */
                 font-size: 42px;
                 
                }
-               h3{
+               h3>.h3{
                 font-size: 36px;
                 background-color: none;
                }
