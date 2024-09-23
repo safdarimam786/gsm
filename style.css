@@ -904,12 +904,12 @@ border-radius: 5px; */
                 min-height: 80vh;
             }
           
-            h3{
+            .h3{
                 font-size: 36px;
                 background-color: none;
                }
-               h2,.section-title{
-                font-size:3rem;
+               h2 .section-title{
+                font-size:3.3rem;
                }
            }
            
