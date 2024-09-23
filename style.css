@@ -908,7 +908,7 @@ border-radius: 5px; */
                 font-size: 36px;
                 background-color: none;
                }
-               .section-title{
+               h2,.section-title{
                 font-size:3rem;
                }
            }
