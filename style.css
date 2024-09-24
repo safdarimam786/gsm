@@ -405,7 +405,7 @@
            .banner_section .carousel-caption {
                top: 30%;
                bottom: 0;
-               left: 3%;
+               left: 0%;
                right: 0;
                text-align: left;
                width: 100%;
@@ -413,7 +413,8 @@
            
            .banner_section .carousel-caption h3 {
                padding: 0rem 1.5rem;
-               background-color: var(--dark-color);
+               color: #007aff;
+               /* background-color: var(--dark-color); */
                
                display: inline;
            }
