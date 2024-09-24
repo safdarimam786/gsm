@@ -412,7 +412,7 @@
            }
            
            .banner_section .carousel-caption h3 {
-               padding: 0.5rem 1.5rem;
+               padding: 0rem 1.5rem;
                background-color: var(--dark-color);
                
                display: inline;
@@ -908,7 +908,8 @@ border-radius: 5px; */
                 font-size: 36px;
                 background-color: none;
                }
-               h2 .section-title{
+               
+            h2 .section-title{
                 font-size:3.3rem;
                }
            }
