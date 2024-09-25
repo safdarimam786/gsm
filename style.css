@@ -200,10 +200,10 @@
                border: 0.2rem solid var(--bg-white);
                border-radius: 3.5rem;
                text-transform: uppercase;
-               padding: 1rem 3.5rem;
+               padding: 1rem 2.5rem;
                border-radius: 25px;
                font-weight: 600;
-               font-size: 1.8rem;
+               font-size: 1.5rem;
                margin-top: 1.5rem;
                letter-spacing: 0.2rem;
            }
@@ -418,6 +418,8 @@
                font-family: 'Montserrat', sans-serif;
                font-weight: 900;
                color: #000000;
+    line-height: -100%;
+               letter-spacing: 0.0rem;
                /* background-color: var(--dark-color); */
                
                display: inline;
@@ -425,9 +427,9 @@
            
            .banner_section .carousel-caption p {
                max-width: 40rem;
-               font-size: 1.25rem;
+               font-size: 1.75rem;
                color: #14141475;
-               line-height: 115%;
+               line-height: 100%;
            }
 
            .banner-content{
