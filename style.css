@@ -114,7 +114,7 @@
            
            h3 {
                color: var(--text-white);
-               font-size: 3.1rem;
+               font-size: 2.1rem;
                line-height: 1.2;
                font-weight: 700;
                z-index:1000; 
@@ -685,7 +685,7 @@ border-radius: 5px; */
            .footer_wrapper .social-network a {
                width: 4rem;
                height: 4rem;
-               margin: .5rem;
+               margin: 1rem;
                line-height: 3.2rem;
                
                font-size: 1.8rem;
