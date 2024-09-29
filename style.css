@@ -905,13 +905,14 @@ border-radius: 5px; */
                
                h1{
                 font-size: 42px;
-                line-height: 2rem;
+                line-height: 50px;
                 
-               }
-               .sub-head{
+            }
+            .sub-head{
                 font-size: 2.3rem;
                 font-weight: 600;
-                line-height: 2rem;
+        
+            
                }
           
                .carousel-caption h3{
