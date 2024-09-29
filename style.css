@@ -683,12 +683,14 @@ border-radius: 5px; */
            }
            
            .footer_wrapper .social-network a {
-               width: 3.5rem;
-               height: 3.5rem;
+               width: 4rem;
+               height: 4rem;
                margin: .5rem;
                line-height: 3.2rem;
-               font-size: 1.5rem;
-               display: inline-block;
+               
+               font-size: 1.8rem;
+               padding: 15px;
+               /* display: inline-block; */
                border: .125rem solid var(--text-gray);
                color: var(--text-gray);
                text-align: center;
