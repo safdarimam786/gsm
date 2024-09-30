@@ -141,7 +141,7 @@
            
            p {
                font-size: 1.6rem;
-               line-height: 1.6;
+               /* line-height: 1re; */
                margin-top: 1rem;
                color: var(--primary-text);
                font-family: var(--secondary-font);
