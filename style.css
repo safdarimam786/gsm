@@ -141,7 +141,7 @@
            
            p {
                font-size: 1.6rem;
-               /* line-height: 1re; */
+               line-height: 1.6;
                margin-top: 1rem;
                color: var(--primary-text);
                font-family: var(--secondary-font);
@@ -397,6 +397,7 @@
            .sub-head{
             font-size: 3rem;
             font-weight: 600;
+            line-height: 0%;
            }
 
 
