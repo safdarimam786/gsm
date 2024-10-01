@@ -958,18 +958,21 @@ border-radius: 5px; */
                }
                
             h2 .section-title{
-                font-size:3.3rem;
+                font-size:3rem;
                }
                .product-details ul {
-                list-style: disc;
-                font-size: 1.8rem;
+                   list-style: disc;
+                   font-size: 1.8rem;
+                }
             }
-           }
-           
-                 
+            
+            
             @media (max-width:320px) {
-            .product-details ul{
-                list-style: disc;
-                font-size: 1.8rem;
-            }
+                .product-details ul{
+                    list-style: disc;
+                    font-size: 1.8rem;
+                }
+                h2 .section-title{
+                    font-size:3rem;
+                   }
             }
