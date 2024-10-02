@@ -971,6 +971,14 @@ border-radius: 5px; */
                     margin-bottom: 0;
                     font-family: var(--secondary-font);
                 }
+                .contact .content-box .info-box li i {
+                    position: absolute;
+                    left: 0;
+                    top: 1.5rem;
+                    font-size: 3.5rem;
+                    line-height: 2.5rem;
+                    color: var(--primary-text);
+                }
             }
             
             
@@ -988,5 +996,13 @@ border-radius: 5px; */
                     font-weight: 400;
                     margin-bottom: 0;
                     font-family: var(--secondary-font);
-                }s
+                }
+                .contact .content-box .info-box li i {
+                    position: absolute;
+                    left: 0;
+                    top: 1.5rem;
+                    font-size: 3.5rem;
+                    line-height: 2.5rem;
+                    color: var(--primary-text);
+                }
             }
