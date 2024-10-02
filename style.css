@@ -964,6 +964,13 @@ border-radius: 5px; */
                    list-style: disc;
                    font-size: 1.8rem;
                 }
+                .contact .content-box .info-box li a {
+                    color: var(--dark-color);
+                    font-size: 1.5rem;
+                    font-weight: 400;
+                    margin-bottom: 0;
+                    font-family: var(--secondary-font);
+                }
             }
             
             
@@ -975,4 +982,11 @@ border-radius: 5px; */
                 h2 .section-title{
                     font-size:3rem;
                    }
+                   .contact .content-box .info-box li a {
+                    color: var(--dark-color);
+                    font-size: 1.5rem;
+                    font-weight: 400;
+                    margin-bottom: 0;
+                    font-family: var(--secondary-font);
+                }s
             }
