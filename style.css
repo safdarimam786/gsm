@@ -520,7 +520,7 @@ border-radius: 5px; */
            }
            
            
-           /* product card design */
+           /* teachar card design */
            
            .landing_product_section .product-card {
                position: relative;
@@ -544,18 +544,20 @@ border-radius: 5px; */
            
            .landing_product_section .product-card h3 {
                color:var(--dark-color);
-               font-size: 24px;;
+               font-size: 18px;
+               font-family: 'Montserrat', sans-serif;
 
            }
            
            .landing_product_section .product-card span {
-               font-size: 1.8rem;
+               font-size: 1.4rem;
                font-weight: 600;
                text-transform: uppercase;
                color: var(--secondary-color);
                margin-right: 0.5rem;
                /* text-decoration: line-through; */
                transition: all 0.3s;
+               font-family: 'Montserrat', sans-serif;
            
            }
            
