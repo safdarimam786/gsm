@@ -459,7 +459,8 @@ border-radius: 5px; */
                background-color: transparent;
                border: 0.15rem solid var(--light-color);
                padding: 8rem 0;
-               transition:  cubic-bezier(.04,.89,.94,.61);
+               -webkit-transition: all 0.3s ease-out 0.3s;
+               transition: all 0.3s ease-out 0.3s;
            }
            
            .feature_section .features-box .features-icon-border {
@@ -488,6 +489,7 @@ border-radius: 5px; */
            .feature_section .features-box h3 {
                margin-top: 1.5rem;
                color: var(--primary-text);
+               
            }
            
            .feature_section .features-box:hover {
