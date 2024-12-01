@@ -464,6 +464,8 @@ border-radius: 5px; */
     background-color: transparent;
     border: 0.15rem solid var(--light-color);
     padding: 8rem 0;
+    -webkit-transition: all 2s ease-out 2s;
+    transition: all 2s ease-out 2s;
 
 }
 
@@ -473,6 +475,8 @@ border-radius: 5px; */
     border: 0.2rem solid var(--light-color);
     padding: 1.3rem;
     display: inline-block;
+    -webkit-transition: all 2s ease-out 2s;
+    transition: all 2s ease-out 2s;
 }
 
 .feature_section .features-box .features-icon {
@@ -490,11 +494,15 @@ border-radius: 5px; */
 
 .feature_section .features-box .features-icon img {
     width: 3.7rem;
+    -webkit-transition: all 2s ease-out 2s;
+    transition: all 2s ease-out 2s;
 }
 
 .feature_section .features-box h3 {
     margin-top: 1.5rem;
     color: var(--primary-text);
+    -webkit-transition: all 0.3s ease-out 0.3s;
+    transition: all 0.3s ease-out 0.3s;
 
 }
 
