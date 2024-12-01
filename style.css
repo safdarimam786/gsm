@@ -461,8 +461,7 @@ border-radius: 5px; */
                background-color: transparent;
                border: 0.15rem solid var(--light-color);
                padding: 8rem 0;
-               -webkit-transition: all 2s ease-out 2s;
-               transition: all 2s ease-out 2s;
+             
            }
            
            .feature_section .features-box .features-icon-border {
@@ -495,12 +494,16 @@ border-radius: 5px; */
            }
            
            .feature_section .features-box:hover {
-               background-color: #03262c;
-               border-color: #03262c;
+               /* background-color: #03262c;
+               border-color: #03262c; */
+               transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  -webkit-transition: all 2s ease-out 2s;
+  transition: all 2s ease-out 2s;
            }
            
            .feature_section .features-box:hover h3 {
-               color: #fff;
+               color: #000000;
            }
            
            .feature_section .features-box:hover .features-icon-border {
