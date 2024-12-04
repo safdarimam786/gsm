@@ -506,7 +506,11 @@ border-radius: 5px; */
 .feature_section .features-box:hover {
     /* background-color: #03262c;
                border-color: #03262c; */
-    transform: scale(1.05);
+               -webkit-transition: all 0.3s ease-in;
+               -o-transition: all 0.3s ease-in;
+               -moz-transition: all 0.3s ease-in;
+               transition: all 0.3s ease-in;
+    transform: scale(1.04);
     box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
    
    
