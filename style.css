@@ -464,8 +464,7 @@ border-radius: 5px; */
     background-color: transparent;
     border: 0.15rem solid var(--light-color);
     padding: 8rem 0;
-    -webkit-transition: all 2s ease-out 2s;
-    transition: all 2s ease-out 2s;
+
 
 }
 
@@ -488,14 +487,12 @@ border-radius: 5px; */
     display: flex;
     align-items: center;
     justify-content: center;
-    -webkit-transition: all 2s ease-out 2s;
-    transition: all 2s ease-out 2s;
+
 }
 
 .feature_section .features-box .features-icon img {
     width: 3.7rem;
-    -webkit-transition: all 2s ease-out 2s;
-    transition: all 2s ease-out 2s;
+
 }
 
 .feature_section .features-box h3 {
@@ -522,6 +519,7 @@ border-radius: 5px; */
 
 .feature_section .features-box:hover .features-icon-border {
     border-color: #36970e;
+    
 }
 
 
