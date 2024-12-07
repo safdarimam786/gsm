@@ -564,7 +564,7 @@ border-radius: 5px; */
     margin-bottom: 7rem;
     text-align: center;
 }
-.product-img{
+.product-img:hover{
     -webkit-transition: all 0.3s ease-in;
                -o-transition: all 0.3s ease-in;
                -moz-transition: all 0.3s ease-in;
