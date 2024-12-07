@@ -565,10 +565,10 @@ border-radius: 5px; */
     text-align: center;
 }
 .product-img:hover{
-    -webkit-transition: all 0.3s ease-in;
-               -o-transition: all 0.3s ease-in;
-               -moz-transition: all 0.3s ease-in;
-               transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in-out;
+               -o-transition: all 0.3s ease-in-out;
+               -moz-transition: all 0.3s ease-in-out;
+               transition: all 0.3s ease-in-out;
     transform: scale(1.4);
     box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
 }
