@@ -564,6 +564,14 @@ border-radius: 5px; */
     margin-bottom: 7rem;
     text-align: center;
 }
+.product-img{
+    -webkit-transition: all 0.3s ease-in;
+               -o-transition: all 0.3s ease-in;
+               -moz-transition: all 0.3s ease-in;
+               transition: all 0.3s ease-in;
+    transform: scale(1.04);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
 
 .landing_product_section .product-card h3 {
     color: var(--dark-color);
