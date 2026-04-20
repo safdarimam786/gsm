@@ -249,18 +249,25 @@ section {
 }
 
 .contact .contact-form .form-control:focus,
-.distributors .contact-form .form-control:focus {
+.contact .contact-form textarea:focus,
+.distributors .contact-form .form-control:focus,
+.distributors .contact-form textarea:focus {
     outline: none;
     box-shadow: none;
+    border-color: #36970e;
 }
 
 .contact .contact-form .form-control::placeholder,
-.distributors .contact-form .form-control::placeholder {
+.contact .contact-form textarea::placeholder,
+.distributors .contact-form .form-control::placeholder,
+.distributors .contact-form textarea::placeholder {
     color: var(--primary-text);
 }
 
 .contact .contact-form .form-control,
-.distributors .contact-form .form-control {
+.contact .contact-form textarea,
+.distributors .contact-form .form-control,
+.distributors .contact-form textarea {
     padding: 1rem 1.5rem;
     border-radius: 0.rem;
     border: 0.1rem solid var(--secondary-color);
@@ -441,6 +448,56 @@ section {
     /* line-height: 100%; */
 }
 
+/* Carousel Controls Styling */
+.banner_section .carousel-control-prev,
+.banner_section .carousel-control-next {
+    width: 4rem;
+    height: 4rem;
+    bottom: 2rem;
+    top: auto;
+    transform: none;
+    background-color: rgba(11, 106, 24, 0.7);
+    border-radius: 50%;
+    border: 0.2rem solid rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+    margin: 0 0.5rem;
+}
+
+.banner_section .carousel-control-prev {
+    left: 50%;
+    right: auto;
+    transform: translateX(-5rem);
+}
+
+.banner_section .carousel-control-next {
+    right: 50%;
+    left: auto;
+    transform: translateX(5rem);
+}
+
+.banner_section .carousel-control-prev:hover,
+.banner_section .carousel-control-next:hover {
+    background-color: #0f7404;
+    border-color: white;
+    box-shadow: 0 0 20px rgba(11, 106, 24, 0.8);
+}
+
+.banner_section .carousel-control-prev:hover {
+    transform: translateX(-5rem) scale(1.1);
+}
+
+.banner_section .carousel-control-next:hover {
+    transform: translateX(5rem) scale(1.1);
+}
+
+.banner_section .carousel-control-prev-icon,
+.banner_section .carousel-control-next-icon {
+    width: 2rem;
+    height: 2rem;
+    background-size: contain;
+    filter: brightness(0) invert(1);
+}
+
 .banner-content {
 
     z-index: 1000000;
@@ -553,6 +610,63 @@ border-radius: 5px; */
     padding: 2rem 1rem;
     position: relative;
     transition: all 0.3s;
+    background: var(--bg-white);
+}
+
+/* Enhanced Teacher Card Styling */
+.landing_product_section .teacher-card {
+    border: 0.15rem solid #e0e0e0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius: 0.8rem;
+    overflow: visible;
+}
+
+.landing_product_section .teacher-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    border-color: #36970e;
+}
+
+.teacher-icon-badge {
+    position: absolute;
+    top: -15px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to right, #0f7404, #5cb917);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: white;
+    box-shadow: 0 5px 15px rgba(15, 116, 4, 0.3);
+    z-index: 10;
+}
+
+.landing_product_section .teacher-info {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 0.1rem solid #f0f0f0;
+}
+
+.role-badge {
+    background: linear-gradient(to right, #0f7404, #5cb917);
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    box-shadow: 0 2px 8px rgba(15, 116, 4, 0.2);
+    transition: all 0.3s ease;
+}
+
+.landing_product_section .teacher-card:hover .role-badge {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(15, 116, 4, 0.3);
 }
 
 .product-details ul {
@@ -564,12 +678,12 @@ border-radius: 5px; */
     margin-bottom: 7rem;
     text-align: center;
 }
-.product-img:hover{
+.product-img:hover {
     -webkit-transition: all 0.3s ease-in-out;
-               -o-transition: all 0.3s ease-in-out;
-               -moz-transition: all 0.3s ease-in-out;
-               transition: all 0.3s ease-in-out;
-    transform: scale(1.4);
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
     box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
 }
 
@@ -927,7 +1041,7 @@ border-radius: 5px; */
     /* General CSS */
     .about .banner_section,
     .product .banner_section,
-    .Gallery .banner_section,
+    .gallery .banner_section,
     .contact .banner_section {
         padding-top: 12.5rem;
 
